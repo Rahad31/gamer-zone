@@ -437,11 +437,11 @@
               }
 
 /* Footer */
-
 footer{
   height: 500px;
 flex-shrink: 0;
 background: #0B0223;
+padding-top: 100px;
 
 }
 .footer-icon-text{
