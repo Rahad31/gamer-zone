@@ -236,10 +236,10 @@
               opacity: 1;
               position:absolute;
               z-index: 0;
-              background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(../gamer-zone/images/rectangle\ 5.png), lightgray 50% / cover no-repeat;
+              background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(./gamer-zone/images/rectangle\ 5.png), lightgray 50% / cover no-repeat;
               ;
-              background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(../gamer-zone/images/rectangle\ 4.png), lightgray 50% / cover no-repeat;
-              background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(../gamer-zone/images/rectangle\ 7.png), lightgray 50% / cover no-repeat; background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(../gamer-zone/images/rectangle\ 6.png), lightgray 50% / cover no-repeat;
+              background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(./gamer-zone/images/rectangle\ 4.png), lightgray 50% / cover no-repeat;
+              background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(./gamer-zone/images/rectangle\ 7.png), lightgray 50% / cover no-repeat; background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(./gamer-zone/images/rectangle\ 6.png), lightgray 50% / cover no-repeat;
               width: 342px;
               height: 400px;
               flex-shrink: 0;
@@ -521,7 +521,7 @@ padding: 30px;
     /*  MEDIA QUEARY */
 
     /* small device */
-    @media screen and (max-width : 426px) {
+    @media screen and (max-width : 576px) {
         nav, nav ul,.banner,.online-game-item{
 
             flex-direction: column;
@@ -530,7 +530,7 @@ padding: 30px;
         
     }
     /* Midium device */
-    @media screen and (max-width : 768px )and (min-width:426px) {
+    @media screen and (max-width : 992px )and (min-width:576px) {
         nav{
             flex-direction: column;
             
